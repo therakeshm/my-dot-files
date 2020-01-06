@@ -1,0 +1,85 @@
+{
+    // Default Terminal
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+
+
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotVerifyTags": true,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "html.format.indentInnerHtml": true,
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "off",
+    "vsicons.projectDetection.autoReload": true,
+    "workbench.colorTheme": "Shades of Purple",
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    // "terminal.integrated.rendererType": "dom",
+    "git.autofetch": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 0,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // Default font
+    "editor.fontFamily": "'Operator Mono Light', Menlo, Monaco, 'Courier New', monospace",
+    // Terminal font
+    // "terminal.integrated.fontFamily": "'Fira Mono for Powerline', monospace",
+    "terminal.integrated.fontFamily": "'Cascadia Code', Fira Mono for Powerline, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 13,
+    // Controls the style of terminal cursor.
+    "terminal.integrated.cursorStyle": "block",
+    // Controls whether the terminal cursor blinks.
+    "terminal.integrated.cursorBlinking": true,
+    // The font weight to use within the terminal for non-bold text.
+    "terminal.integrated.fontWeight": "400",
+    // Configures font ligatures.
+    "editor.fontLigatures": true,
+    // Controls the font weight.
+    "editor.fontWeight": "400",
+    // Controls whether the editor should automatically format the pasted content. A formatter must be available and the formatter should be able to format a range in a document.
+    "editor.formatOnPaste": false,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 20,
+    "editor.letterSpacing": 0.5,
+
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 3,
+    "editor.cursorBlinking": "phase",
+    /*
+        Controls how the editor should render whitespace characters.
+      - none
+      - boundary: Render whitespace characters except for single spaces between words.
+      - selection: Render whitespace characters only on selected text.
+      - all
+      */
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+
+    // Formatting Optional.
+    "editor.formatOnSave": false,
+    "prettier.eslint": true,
+    "eslint.run": "onType",
+    "eslint.autoFixOnSave": true,
+
+    // Default settings json interface rather than GUI
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultKeybindings": true,
+    "workbench.settings.openDefaultSettings": true,
+
+    // Live server default browser : Chrome
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.rendererType": "dom",
+
+
+}
